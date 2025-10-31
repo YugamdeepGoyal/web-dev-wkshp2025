@@ -3,43 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yugamdeep's Impressive Portfolio</title>
-    <!-- Load Bootstrap 5 CSS -->
+    <title>Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      xintegrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
     <link href="style.css" rel="stylesheet" />
   </head>
-  <body>
-    <div id="main_body" class="app-container">
-      <!-- Button Row: Positioned absolutely for top-right placement -->
-      <div
-        class="position-absolute top-0 end-0 p-4 d-flex flex-column flex-sm-row align-items-end align-items-sm-center"
-      >
-        <button id="color1-btn" class="color-btn me-sm-2">Colour 1</button>
-        <button id="color2-btn" class="color-btn me-sm-2">Colour 2</button>
-        <button id="color3-btn" class="color-btn">Colour 3</button>
+  <body id="main_body">
+    <div class="container-fluid">
+      <div class="row" style = "margin-top: 0.5rem">
+        <div class="col-md-7"></div>
+        <div class="col-md-5">
+          <button id="color1-btn" class="color-btn me-sm-2">Colour 1</button>
+          <button id="color2-btn" class="color-btn me-sm-2">Colour 2</button>
+          <button id="color3-btn" class="color-btn me-sm-2">Colour 3</button>
+        </div>
       </div>
 
-      <!-- Main Content (Centered) -->
-      <div class="text-center p-4">
-        <h1 class="main-text">Yugamdeep Goyal</h1>
-        <p class="tagline">
-          Exploring the world of web, one commit at a time.
-        </p>
+      <div class="row">
+        <div class="col-md-12 text-center p4">
+          <h1 class="main-text">Yugamdeep Goyal</h1>
+          <p class="tagline">
+            Exploring the world of web, one commit at a time.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+          <span class = "about_me">Hi! I’m Yugamdeep Goyal, a B.Tech student in Artificial Intelligence and Data Science at Thapar Institute of Engineering and Technology. I’m deeply passionate about building intelligent systems, solving real-world problems through code, and constantly learning about new things. I enjoy working with Python, exploring Machine Learning and developing practical tools that make life easier. I believe in learning by doing — whether it’s crafting command-line projects or experimenting with Flask. Beyond academics, I’m driven by curiosity.</span>
+        </div>
+        <div class="col-md-3"></div>
       </div>
     </div>
-
-    <!-- Load Bootstrap 5 JS Bundle -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      xintegrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-
-    <script src = "script.js"></script>
+    <script src="script2.js"></script>
   </body>
 </html>

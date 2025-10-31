@@ -5,12 +5,6 @@ body {
 }
 
 #main_body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
   background-color: #1a1e36;
 }
 
@@ -22,10 +16,12 @@ body {
   color: #818cf8;
   text-shadow: 0 0 15px rgba(129, 140, 248, 0.8);
 }
+
 .main-text:hover {
   transform: translateY(-0.25rem);
   transform: scale(1.01);
 }
+
 .tagline {
   font-size: clamp(1rem, 2.5vw, 1.5rem);
   font-style: italic;
@@ -33,9 +29,11 @@ body {
   margin-top: 1rem;
   color: #c3c8fb;
 }
-.tagline:hover{
+
+.tagline:hover {
   text-shadow: 0px 1.5px;
 }
+
 .color-btn {
   position: relative;
   overflow: hidden;
@@ -51,15 +49,25 @@ body {
 .color-btn:hover {
   transform: scale(1.05);
 }
+
 #color1-btn {
   background-color: #4f46e5 !important;
   box-shadow: 0 0 15px #4f46e550 !important;
 }
+
 #color2-btn {
   background-color: #0d9488 !important;
   box-shadow: 0 0 15px #0d948850 !important;
 }
+
 #color3-btn {
   background-color: #e11d48 !important;
   box-shadow: 0 0 15px #e11d4850 !important;
+}
+.about_me{
+  color:white;
+  text-align:center;
+  justify-items: right;
+  font-weight: bold;
+  font-family: "comic sans ms"
 }
